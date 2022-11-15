@@ -13,7 +13,7 @@ function App() {
   }, []);
 
   return (
-    <div className="App grid grid-cols-3 gap-5">
+    <div className="App grid grid-cols-4 gap-5">
      {news.length === 0 ? "Loading" : 
      news.map((obj) => <Card obj={obj} key={obj.url}/>)}
     </div>
