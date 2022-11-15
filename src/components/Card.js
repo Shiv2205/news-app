@@ -21,7 +21,7 @@ const Card = (props) => {
   }
 
   return (
-    <a href={props.obj.url}>
+    <a href={props.obj.url} target="_blank">
       <div className="p-2">
         <div className="max-w-sm rounded bg-white overflow-hidden shadow-2xl cursor-pointer">
           <img className="w-full" src={props.obj.urlToImage !== null ? props.obj.urlToImage : notFound} alt="Preview" />

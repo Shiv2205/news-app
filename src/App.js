@@ -7,7 +7,7 @@ function App() {
   const apiKey = "b4fe8bb3615246fa8da34cdea4aa44c3";
   const [news, setNews] = useState([]);
   const [category, setCategory] = useState("category=general");
-  const [country, setCountry] = useState("country=gb");
+  const [country, setCountry] = useState("country=us");
 
   useEffect(() => {
     axios
