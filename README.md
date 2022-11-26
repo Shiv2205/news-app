@@ -1,3 +1,11 @@
+#Project Description
+
+Using ReactJS and NewsAPI to create a news web app. I had real fun building this project; until i realized that the API only allowed CORS on localhost. I would say this project taught me the importance of checking the documentation of an API before using it. Below are the screenshots of the app from my localhost server.
+
+#Project Screenshots
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
